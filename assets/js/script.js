@@ -31,6 +31,6 @@ $("input[type='text']").keypress(function(event) {
         $(this).val("");
         //create a new li and add to ul 
         //.appent method takes a string of html element and append (add) those elements to whatever we selected
-        $("ul").append("<li><span>X</span> " + todoText + "</li>");
+        $("ul").append("<li><span><i class='fas fa-trash'></i></span> " + todoText + "</li>");
     }
 });
